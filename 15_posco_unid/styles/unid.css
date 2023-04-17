@@ -1,0 +1,122 @@
+#h_bg {
+  background-color: rgba(255, 255, 255, 0.6);
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+#h_bg header {
+  height: 120px;
+  width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#h_bg header nav {
+  position: relative;
+}
+#h_bg header nav .nav_bg {
+  background: #fff;
+  width: 1000%;
+  height: 60vh;
+  position: absolute;
+  z-index: -999;
+  left: -80%;
+  top: 120px;
+}
+#h_bg header nav .gnb {
+  display: flex;
+}
+#h_bg header nav .gnb > li {
+  padding-right: 50px;
+  position: relative;
+}
+#h_bg header nav .gnb > li > a {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-left: 10px;
+  line-height: 120px;
+}
+#h_bg header nav .gnb > li .sub1 {
+  padding-top: 15px;
+  position: absolute;
+  width: 100%;
+  height: 60vh;
+}
+#h_bg header nav .gnb > li .sub1 > li a:hover {
+  color: #003a14;
+}
+#h_bg header nav .gnb > li .sub1 > li > a {
+  display: block;
+  line-height: 2.5;
+}
+#h_bg header nav .gnb > li .sub1 .sub2 li {
+  border-bottom: 1px dashed #888;
+}
+#h_bg header nav .gnb > li .sub1 .sub2 li a {
+  color: #888;
+  font-size: 0.8rem;
+  line-height: 2.5;
+  padding-left: 15px;
+  display: block;
+}
+#h_bg header nav .gnb > li:last-child {
+  margin: 0;
+}
+#h_bg header .all_nav {
+  width: 50px;
+}
+#h_bg header span {
+  background: #003a14;
+  display: block;
+  width: 30px;
+  height: 5px;
+}
+#h_bg header span:nth-child(1) {
+  transform: skewX(-40deg) translateX(0);
+}
+#h_bg header span:nth-child(2) {
+  transform: skewX(-40deg) translateX(-5px);
+  margin: 5px 0;
+}
+#h_bg header span:nth-child(3) {
+  transform: skewX(-40deg) translateX(-10px);
+}
+
+main {
+  background: url(../images/unid/bg.jpg) center;
+}
+main .visual {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  width: 1400px;
+  margin: 0 auto;
+}
+main .visual .txt {
+  display: flex;
+  flex-flow: column nowrap;
+}
+main .visual .txt span {
+  font-size: 4rem;
+  font-weight: 600;
+  color: #f1f1f1;
+  line-height: 1.5;
+}
+main .visual .right_img {
+  position: relative;
+  width: 250px;
+}
+main .visual .right_img img:first-child {
+  width: 100%;
+}
+main .visual .right_img img:last-child {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}/*# sourceMappingURL=unid.css.map */
